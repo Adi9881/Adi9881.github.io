@@ -1,0 +1,28 @@
+{
+  "sections": [
+    {
+      "heading": "Cortica",
+      "img": "awpimages/cortica.png",
+      "paragraphs": [
+        "A simple auto-associative memory based on Hopfield nets.",
+        "Role: Independent."
+      ]
+    },
+    {
+      "heading": "CropSense",
+      "img": "awpimages/cropsense.png",
+      "paragraphs": [
+        "IoT-system for monitoring and recommendative actions for crop health.",
+        "Role: Initial development of AI-models for classification and prediction."
+      ]
+    },
+    {
+      "heading": "Custom ALU and Bootloader",
+      "img": "awpimages/alu.png",
+      "paragraphs": [
+        "Very basic ALU and BIOS using HDL inspired by online tutorials.",
+        "Role: Personal mini-project."
+      ]
+    }
+  ]
+}

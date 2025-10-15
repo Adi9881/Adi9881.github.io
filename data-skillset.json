@@ -1,0 +1,29 @@
+ {
+    "sections": [
+      {
+        "heading": "Technologies",
+        "items": [
+          { "img": "awpimages/matlab.png", "label": "MatLAB" },
+          { "img": "awpimages/pytorch.png", "label": "PyTorch" },
+          { "img": "awpimages/godot.png", "label": "Godot" }
+        ]
+      },
+      {
+        "heading": "Programming Languages",
+        "items": [
+          { "img": "awpimages/python.png", "label": "Python" },
+          { "img": "awpimages/c.png", "label": "C" },
+          { "img": "awpimages/java.png", "label": "Java" }
+        ]
+      },
+      {
+        "heading": "Interests",
+        "items": [
+          { "img": "awpimages/cybernetics.png", "label": "Cybernetics" },
+          { "img": "awpimages/ai.png", "label": "Artificial Intelligence" },
+          { "img": "awpimages/data.png", "label": "Data Science" }
+        ]
+      }
+    ]
+  }
+  

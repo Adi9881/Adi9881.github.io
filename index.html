@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home</title>
+  <link rel="stylesheet" href="style-home.css">
+</head>
+<body>
+  <!--Menu Link Bar-->
+  <nav>
+    <ul>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="skillset.html">Skillset</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="works.html">Other Works</a></li>
+    </ul>
+  </nav>
+
+  <div class="content">
+    <h1>Welcome!</h1>
+
+    <!--Profile (unchanged)-->
+    <div class="card">
+      <div class="card-icon">
+        <img src="awpimages/profile.png" alt="Profile Photo">
+      </div>
+      <div class="card-text">
+        <h2>Aditya R. Jadhav</h2>
+        <p><strong>Phone:</strong> +7507700007</p>
+        <p><strong>Email:</strong> adirjadhav552@gmail.com</p>
+        <p><strong>Location:</strong> Pune, Maharashtra, IND</p>
+        <p><strong>Qualification:</strong> B.Tech. Computer Science, Pimpri Chinchwad University</p>
+      </div>
+    </div>
+
+    <p>This is my personal homepage. Use the navigation bar above to explore my skills, projects, and other works.</p>
+
+    <!-- React mount point: a small uniform welcome card -->
+    <div id="react-content" class="card" style="margin-top: 30px;"></div>
+  </div>
+
+  <footer>
+    <p>©2025 Aditya R. Jadhav</p>
+  </footer>
+
+  <!-- React -->
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+  <!-- Shared script (AJAX + React) -->
+  <script src="script.js"></script>
+</body>
+</html>
